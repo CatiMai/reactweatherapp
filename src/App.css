@@ -34,4 +34,8 @@ h3 {
 }
 small.footer {
   margin: 10px 0px 0px 0px;
+  color: #fdd7d7;
+}
+small.footer a {
+  color: #fdd7d7;
 }

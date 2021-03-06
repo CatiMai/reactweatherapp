@@ -13,7 +13,16 @@ function App() {
           </div>
         </div>
 
-        <small class="footer">Open Source Code by Caterina Maidhof</small>
+        <small class="footer">
+          <a
+            href="https://github.com/CatiMai/reactweatherapp"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Open Source Code
+          </a>{" "}
+          by Caterina Maidhof
+        </small>
       </div>
     </div>
   );
