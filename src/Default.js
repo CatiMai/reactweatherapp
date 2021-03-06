@@ -24,7 +24,7 @@ export default function Default() {
         <li>Temperature: {Math.round(weather.temperature)}°C</li>
         <li>Description: {weather.description}</li>
         <li>Humidity: {weather.humidity}%</li>
-        <li>Wind: {weather.wind}km/h</li>
+        <li>Wind: {Math.round(weather.wind)}km/h</li>
         <li>
           <img src={weather.icon} alt={weather.description} />
         </li>
