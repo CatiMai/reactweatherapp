@@ -48,7 +48,7 @@ export default function Form() {
   if (loaded) {
     return (
       <div>
-        <div className="Form"> {form}</div>
+        <div>{form}</div>
         <div>
           <h3 className="searchedCity">{city}</h3>
           <ul className="row col-6 displayInfo">
@@ -66,7 +66,7 @@ export default function Form() {
   } else {
     return (
       <div>
-        <div className="Form">{form}</div>
+        <div>{form}</div>
         <div>
           <>
             <Default />

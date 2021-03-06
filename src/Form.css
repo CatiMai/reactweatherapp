@@ -1,14 +1,16 @@
 .Form input.textinput {
   font-size: 25px;
   float: left;
-  padding: 0px 30px;
+  margin-bottom: 15px;
+  padding: 0px 70px;
   border: 1px solid rgb(201, 201, 201);
   box-shadow: 1px 1px 1px 1px rgb(28, 28, 65);
 }
 .Form input.searchbutton {
   display: block;
   position: relative;
-  margin: 0px;
+  float: right;
+  margin: 0 5px 15px 0px;
   padding: 4px 8px;
   background: rgb(253, 241, 235);
   border-radius: 3px;
@@ -25,7 +27,7 @@ h3.searchedCity {
   height: 30px;
   line-height: 28px;
   width: 618px;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
   margin-top: 15px;
 }
 ul.displayInfo {
@@ -33,6 +35,6 @@ ul.displayInfo {
   display: block;
   list-style-type: none;
   position: relative;
-  margin: 10px 0px 0px 0px;
-  padding: 0px;
+  margin: 50px 0px 0px 0px;
+  padding: 10px 0 3px 0;
 }
